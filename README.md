@@ -32,3 +32,29 @@ El apartado tracklist deberá contener la información de todas las canciones de
 - Generar el disco escogido (el que queráis) con su título, minutos, discográfica y tracklist de 6 canciones. Comprobar con la función generateInfo pinta la información en consola correctamente. Comprobar que la función 'labelInfo' saca la información de la discográfica por consola correctamente.
 
 - Crear una función en el prototipo de Disco que nos informe de la existencia o no de la propiedad label sin recorrer la cadena de prototipos.
+
+# Patrones
+
+# Prototype
+
+- Crea un prototipo Vivienda que tenga un prototipo con una propiedad 'habitaciones' y otra propiedad 'plantas'.
+
+- Crea una instancia 'duplex' a partir de la clase Vivienda con el número de habitaciones y plantas (ambas propiedades tienen que tener como valor un entero) cuyo constructor apunte al prototipo de Vivienda.
+
+- Haz lo mismo que en el ejercicio anterior, pero esta vez el constructor de la instancia Duples no debe apuntar al prototipo Vivienda.
+
+- Cambiar la propiedad habitaciones del duplex a otro número a través del prototipo.
+
+- Utilizar un patrón híbrido entre patrón constructor y prototipo para crear otra vez la Vivienda con las mismas propiedades y además un método "construir" que saque por consola el número habitaciones y plantas que se están construyendo. Crear una instancia de esta Vivienda y comprobar su correcto funcionamiento.
+
+# Module
+
+- Crear un módulo con un método privado y uno público y comprobar su correcto funcionamiento.
+
+- Crear en el módulo anterior una variable privada y crear un método público que la pinte en la consola.
+
+- Crear una variable global 'number' y asignarle un entero como valor. Dentro del módulo, crear otra variable con el nombre 'number' y asignarle otro entero con valor diferente. Crear un método que devuelva su suma.
+
+- Crear una variable global 'number' y asignarle un entero como valor. Dentro del módulo, crear una variable privada 'number' con diferente valor y una variable 'publicNumber' con diferente valor a los dos anteriores. Crear un método público que utilice a su vez un método privado para devolver la suma de la variable global 'number' y la variable pública del módulo 'publicNumber';
+
+- Con el módulo creado en el ejercicio anterior, crear un método público que llame a uno privado que sume el number privado y el number público del módulo.
