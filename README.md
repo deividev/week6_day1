@@ -58,3 +58,7 @@ El apartado tracklist deberá contener la información de todas las canciones de
 - Crear una variable global 'number' y asignarle un entero como valor. Dentro del módulo, crear una variable privada 'number' con diferente valor y una variable 'publicNumber' con diferente valor a los dos anteriores. Crear un método público que utilice a su vez un método privado para devolver la suma de la variable global 'number' y la variable pública del módulo 'publicNumber';
 
 - Con el módulo creado en el ejercicio anterior, crear un método público que llame a uno privado que sume el number privado y el number público del módulo.
+
+- Crear una variable global 'number' con un valor y otra privada 'number' con diferente valor. Crear una función pública que devuelva la suma de ambos sin utilizar una función privada entre medias.
+
+# Reveal module
