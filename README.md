@@ -7,7 +7,7 @@ Aunque javascript no es lenguaje de clases, sí que existe una manera de trabaja
 
 - Añadir a la clase del ejercicio anterior una función que devuelva por consola la información del vehículo en un solo string. Por ejemplo: "El Piaggio MP3 LT tiene 3 ruedas". Estaría bien utilizar otro modelo diferente al del ejemplo.
 
-- Añadir a la clase vehículo una función que cambie las propiedades de nombre, modelo y ruedas y saque la información por consola igual que en el ejercicio enterior. La función debe admitir argumentos.
+- Añadir a la clase vehículo una función que cambie las propiedades de nombre, modelo y ruedas y saque la información por consola igual que en el ejercicio anterior. La función debe admitir argumentos.
 
 # Clases mediante funciones y new
 
