@@ -1,7 +1,7 @@
 # Clases
 Aunque javascript no es lenguaje de clases, sí que existe una manera de trabajar con algo parecido a las clases de otros lenguajes. Os proponemos estos ejercicios para comprender las diferentes maneras de crear clases en javascript y su utilidad.
 
-#Clases mediante objeto
+# Clases mediante objeto
 
 - Crear mediante objeto una clase vehículo que contenga una propiedad 'nombre', a la que se le debe asignar un valor de tipo string, una propiedad 'modelo', a la que le deberá asignar un string y otra propiedad 'ruedas' a la que se le debe asignar un valor de tipo entero.
 
@@ -9,7 +9,7 @@ Aunque javascript no es lenguaje de clases, sí que existe una manera de trabaja
 
 - Añadir a la clase vehículo una función que cambie las propiedades de nombre, modelo y ruedas y saque la información por consola igual que en el ejercicio enterior. La función debe admitir argumentos.
 
-#Clases mediante funciones y new
+# Clases mediante funciones y new
 
 - Crea una clase Album mediante la palabra clave new que tenga una propiedad 'Título' y una propiedad 'minutos'.
 
