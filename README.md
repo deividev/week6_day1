@@ -1,4 +1,5 @@
 # Clases
+
 Aunque javascript no es lenguaje de clases, sí que existe una manera de trabajar con algo parecido a las clases de otros lenguajes. Os proponemos estos ejercicios para comprender las diferentes maneras de crear clases en javascript y su utilidad.
 
 # Clases mediante objeto
@@ -16,6 +17,7 @@ Aunque javascript no es lenguaje de clases, sí que existe una manera de trabaja
 - Añadir a la clase Album una propiedad 'tracklist' que sea un array de 4 canciones. Cada canción debe ser un objeto con su propio nombre y sus propios minutos.
 
 - Añadir al prototipo de la clase Album una función "generateInfo" que saque por consola la información del album en el siguiente formato:
+
 ```
     Título: titulo del album
     Duración: minutos de duración del album,
@@ -23,8 +25,10 @@ Aunque javascript no es lenguaje de clases, sí que existe una manera de trabaja
         Título: título del track; Duración: minutos del track
 ```
 
-  El apartado tracklist deberá contener la información de todas las canciones del tracklist.
+El apartado tracklist deberá contener la información de todas las canciones del tracklist.
 
 - Crear una clase Disco que herede de la clase Album sus propiedades y su prototipo, pero que añada la propiedad 'Label', que contendrá la información de la discográfica, y crear en su prototipo una función "labelInfo" que saque esa información por consola.
 
 - Generar el disco escogido (el que queráis) con su título, minutos, discográfica y tracklist de 6 canciones. Comprobar con la función generateInfo pinta la información en consola correctamente. Comprobar que la función 'labelInfo' saca la información de la discográfica por consola correctamente.
+
+- Crear una función en el prototipo de Disco que nos informe de la existencia o no de la propiedad label sin recorrer la cadena de prototipos.
