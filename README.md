@@ -49,11 +49,13 @@ El apartado tracklist deberá contener la información de todas las canciones de
 
 # Module
 
+En los siguientes ejercicios hay que utilizar el patrón modulo.
+
 - Crear un módulo con un método privado y uno público y comprobar su correcto funcionamiento.
 
 - Crear en el módulo anterior una variable privada y crear un método público que la pinte en la consola.
 
-- Crear una variable global 'number' y asignarle un entero como valor. Dentro del módulo, crear otra variable con el nombre 'number' y asignarle otro entero con valor diferente. Crear un método que devuelva su suma.
+- Crear una variable global 'number' y asignarle un entero como valor. Dentro del módulo, crear otra variable con el nombre 'number' y asignarle otro entero con valor diferente. Crear un método público que devuelva su suma utilizando uno privado.
 
 - Crear una variable global 'number' y asignarle un entero como valor. Dentro del módulo, crear una variable privada 'number' con diferente valor y una variable 'publicNumber' con diferente valor a los dos anteriores. Crear un método público que utilice a su vez un método privado para devolver la suma de la variable global 'number' y la variable pública del módulo 'publicNumber';
 
@@ -62,3 +64,17 @@ El apartado tracklist deberá contener la información de todas las canciones de
 - Crear una variable global 'number' con un valor y otra privada 'number' con diferente valor. Crear una función pública que devuelva la suma de ambos sin utilizar una función privada entre medias.
 
 # Reveal module
+
+En los siguientes ejercicios hay que utilizar el patrón reveal module.
+
+- Crear un módulo con un método privado y uno público y comprobar su correcto funcionamiento.
+
+- Crear en el módulo anterior una variable privada y crear un método público que la pinte en la consola.
+
+- Crear una variable global 'number' y asignarle un entero como valor. Dentro del módulo, crear otra variable con el nombre 'number' y asignarle otro entero con valor diferente. Crear un método público que devuelva su suma utilizando uno privado.
+
+- Crear una variable global 'number' y asignarle un entero como valor. Dentro del módulo, crear una variable privada 'number' con diferente valor y una variable 'publicNumber' con diferente valor a los dos anteriores. Crear un método público que utilice a su vez un método privado para devolver la suma de la variable global 'number' y la variable pública del módulo 'publicNumber';
+
+- Con el módulo creado en el ejercicio anterior, crear un método público que llame a uno privado que sume el number privado y el number público del módulo.
+
+- Crear una variable global 'number' con un valor y otra privada 'number' con diferente valor. Crear una función pública que devuelva la suma de ambos sin utilizar una función privada entre medias.
