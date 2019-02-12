@@ -33,6 +33,8 @@ El apartado tracklist deberá contener la información de todas las canciones de
 
 - Crear una función en el prototipo de Disco que nos informe de la existencia o no de la propiedad label sin recorrer la cadena de prototipos.
 
+- Hacer todo lo anterior, pero esta vez utilizando las clases de es6.
+
 # Patrones
 
 # Prototype
